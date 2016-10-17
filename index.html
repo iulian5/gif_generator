@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Iulian Filip</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/mycss/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/social_media_css/style.css">
+    <link rel="stylesheet" href="css/hover/hover.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/easySlider1.7.js"></script>
+
+</head>
+
+<body>
+    <!-- Progression bar-->
+    <div class="fixed">
+        <div class="progress">
+            <div class="progress-bar bg-5" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:33%">
+                <span class="sr-only">33% Complete</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar bg-2">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="#1" class="hvr-bounce-to-bottom">WHO</a></li>
+                    <li><a href="#2" class="hvr-bounce-to-bottom">WHAT</a></li>
+                    <li><a href="#3" class="hvr-bounce-to-bottom">WHERE</a></li>
+                    <li><a href="#4" class="hvr-bounce-to-bottom"> CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="auto"></div>
+    <div id="1" class="container-fluid bg-1 text-center">
+        <h3 class="margin">Who Am I?</h3>
+        <img src="img/avatar.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+        <h3>Suis-je un aventurier ??</h3>
+    </div>
+    </div>
+
+    <!-- Second Container -->
+    <div id="2" class="container-fluid bg-2 text-center">
+        <h3 class="margin">Qui suis-je vraiment ?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <a href="#" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-search"></span> Search
+        </a>
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div id="3" class="container-fluid bg-1 text-center">
+        <h3 class="margin">Mes créations</h3>
+        <br>
+        <div class="img-list">
+            <div class="col-sm-4">
+
+                <img src="img/cake.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <span class="text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/game.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <span class="text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/safe.png" class="img-responsive margin" style="width:100%" alt="Image">
+                <span class="text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Fourth Container -->
+   
+    <div class="container-fluid bg-2 text-center"><form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Nom de Famille *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Prénom *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Téléphone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" >
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted">
+            </div>
+        </div>
+    </div>
+
+</form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+    
+    <i class="fa fa-facebook"></i>   
+    <a href="#"><i class="fa fa-facebook"></i></a
+    </footer>
+      
+</body>
+
+</html>
